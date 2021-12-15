@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/AwsomeBox';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello braciszku
+          Hello bro
         </p>
         <a
           className="App-link"
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header>
       <p> This is a paragraph.</p>
+      React.DOM.render(Square);
     </div>
     <p> This is a paragraph.</p>
     </>
