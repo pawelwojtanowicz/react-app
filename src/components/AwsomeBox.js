@@ -1,4 +1,4 @@
-function Square() {
+function square() {
     return (
         <svg width="100px" height="100px">
         <rect width="100px" height="100px" style="fill:red;" />

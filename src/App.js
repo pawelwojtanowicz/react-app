@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import './components/AwsomeBox';
+import './components/AwsomeBox.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render (<square />, document.getElementById('root'));
 
 function App() {
   return (
@@ -21,7 +25,6 @@ function App() {
         </a>
       </header>
       <p> This is a paragraph.</p>
-      React.DOM.render(Square);
     </div>
     <p> This is a paragraph.</p>
     </>
